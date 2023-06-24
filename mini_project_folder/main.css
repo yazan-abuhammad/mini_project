@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+.main  {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.print{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fa-solid fa-utensils fa-xl{
+    width: 30px;
+    height: 30px;
+}
+
+.form{
+    background-image: url(list-bg.png);
+  
+    display: flex;
+}
+
+    
+
+.line{
+    height: 10px;
+   
+        background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+        background-size: 8.90px 8.90px;
+}
+body{
+    margin: 0 auto;
+    width: 60%;
+}
+.pizza{
+        margin-top: 2vw;
+        width: 100%;
+}
+.about-Vanessa{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    height: 40px;
+    color: white;
+    margin-right: 200px;
+    background-color: rgb(123, 19, 19);
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.button:hover{
+    transform: scale(1.2);
+    color: #bd1759;
+}
+.footer{
+    text-align: center;
+    
+}
+.header-1{
+    display: inline;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-top: 0;
+}
+.header-2{
+    color: rgb(175, 172, 172);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: xx-small;
+    letter-spacing: .2em;
+    margin-left: 5.5em;
+    margin-top: 0;
+    padding: 0;
+}
+.choco{
+font-family: 'Oswald', sans-serif;
+font-size: 2vw;
+font-weight: 700;
+letter-spacing: -2px;
+margin-bottom: 1vw;
+}
+
+.fa-print{
+    color: grey;
+    
+}
+
+.fa-print:hover{
+    color: blue;
+    transform: scale(1.5);
+}
+.header-3  {
+    color: rgb(119, 146, 110);
+    
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: .1em;
+    margin-top: 0;
+}
+.instructions{
+    color: rgb(119, 146, 110);
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+    line-height: 2vw;
+    margin-top: 2vw;
+    
+}
+.about-vanessa {
+    display: inline;
+    color: rgb(0, 0, 0);
+   
+    font-family: 'Crimson Text', serif;
+   
+}
+.published{
+    color: rgb(119, 146, 110);  
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+}
